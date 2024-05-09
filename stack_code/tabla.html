@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+  </head>
+
+  <body>
+    <script>
+      function displayTeachers() {
+
+        let data =
+        {
+          "teachers": [
+            {
+              "teachersname": "John",
+              "born": "1979"
+            },
+            {
+              "teachersname": "Joe",
+              "born": "1983"
+            },
+            {
+              "teachersname": "Jenny",
+              "born": "1991"
+            }
+          ]
+        }
+
+        let output = "<h1>Teachers</h1>";
+        output += "<ul>";
+
+        for (let i in data.teachers) {
+          output += "<li>" + data.teachers[i].teachersname +
+            " (Born: " + data.teachers[i].born + ")</li>";
+        }
+
+        output += "</ul>";
+
+        document.getElementById("teachersList").innerHTML = output;
+      }
+
+      window.onload = displayTeachers;
+    </script>
+
+    <div id="teachersList"></div>
+  </body>
+
+</html>

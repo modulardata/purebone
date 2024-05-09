@@ -1,0 +1,51 @@
+{
+	"offer": [
+		{
+			"water": 250,
+			"milk": 0,
+			"beans": 16,
+			"cups": 1,
+			"money": 4,
+			"name": "espresso"
+		},
+		{
+			"water": 350,
+			"milk": 75,
+			"beans": 20,
+			"cups": 1,
+			"money": 7,
+			"name": "latte"
+		},
+		{
+			"water": 200,
+			"milk": 100,
+			"beans": 12,
+			"cups": 1,
+			"money": 6,
+			"name": "cappuccino"
+		},
+		{
+			"water": 210,
+			"milk": 300,
+			"beans": 20,
+			"cups": 1,
+			"money": 10,
+			"name": "extra white"
+		},
+		{
+			"water": 250,
+			"milk": 0,
+			"beans": 32,
+			"cups": 1,
+			"money": 8,
+			"name": "double espresso"
+		}
+	],
+	"storage": {
+		"water": 400,
+		"milk": 540,
+		"beans": 120,
+		"cups": 9,
+		"money": 550
+	}
+}

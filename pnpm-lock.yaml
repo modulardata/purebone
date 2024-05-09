@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      sync-input:
+        specifier: https://github.com/hyperskill/sync-input/archive/v1.tar.gz
+        version: https://github.com/hyperskill/sync-input/archive/v1.tar.gz
+
+packages:
+
+  sync-input@https://github.com/hyperskill/sync-input/archive/v1.tar.gz:
+    resolution: {tarball: https://github.com/hyperskill/sync-input/archive/v1.tar.gz}
+    version: 1.0.0
+
+snapshots:
+
+  sync-input@https://github.com/hyperskill/sync-input/archive/v1.tar.gz: {}

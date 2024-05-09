@@ -1,0 +1,21 @@
+{
+	"cSpell.words": [
+		"Hyperskill",
+		"Pellentesque"
+	],
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.gitattributes": true,
+		"**/.idea": true,
+		"**/.phpintel": true,
+		"**/desktop.ini": true,
+		"**/node_modules": true,
+		"**/.vscode": true
+	},
+	"explorerExclude.backup": {}
+}
